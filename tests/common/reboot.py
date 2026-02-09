@@ -17,7 +17,6 @@ from .utilities import wait_until, get_plt_reboot_ctrl
 from tests.common.helpers.dut_utils import ignore_t2_syslog_msgs, create_duthost_console, creds_on_dut
 from tests.common.fixtures.conn_graph_facts import get_graph_facts
 
-
 logger = logging.getLogger(__name__)
 
 # Create the waiting power on event
